@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "buildVite": "vite build",
+    "startVite": "npx serve distVite",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sentry/vite-plugin": "^2.2.0",
     "@sentry/vue": "^7.54.0",
     "vue": "^3.2.47"
   },
