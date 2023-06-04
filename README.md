@@ -10,15 +10,17 @@ Set up -
 
 3. create .env file based on example
 
-
 4. Each bundler has its own build and start command -
 
+```
 npm run buildVite
-  npm run startVite
-
+npm run startVite
+```
+```
 npm run buildEsbuild
-  npm run startEsbuild
-
+npm run startEsbuild
+```
+```
 npm run buildWebpack
-  npm run startWebpack
-
+npm run startWebpack
+```
