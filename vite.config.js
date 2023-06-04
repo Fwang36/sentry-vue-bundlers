@@ -6,7 +6,7 @@ import { sentryVitePlugin } from '@sentry/vite-plugin'
 
 export default ({}) => {
   process.env = {...process.env, ...loadEnv( process.cwd(), "")};
-  console.log(process.env)
+  
   return defineConfig({
   
   build: {
