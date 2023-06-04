@@ -10,12 +10,12 @@ await esbuild.build({
   minify: true,
   sourcemap: true,
   outdir: "distEsbuild",
-  define: {
-    "import.meta.env.VITE_SENTRY_DSN": JSON.stringify(process.env.VITE_SENTRY_DSN)
-  },
+  // define: {
+  //   "import.meta.env.VITE_SENTRY_DSN": JSON.stringify(process.env.VITE_SENTRY_DSN)
+  // },
   plugins: [vuePlugin({
     generateHTML: {
-        sourceFile: "index.html",
+        sourceFile: "./index.html",
         pathPrefix: "",
 
     }  

@@ -1,12 +1,13 @@
 import { createApp } from 'vue'
-import './style.css'
+// import './style.css'
 import App from './App.vue'
 import * as Sentry from "@sentry/vue";
+
 const app = createApp(App);
 
 Sentry.init({
     app,
-    dsn: import.meta.env.VITE_SENTRY_DSN,
+    dsn: "https://49f7d4f7e14d4b90b21514211772134d@o1407376.ingest.sentry.io/4505302114893824", 
     integrations: [
       new Sentry.BrowserTracing({
         // Set `tracePropagationTargets` to control for which URLs distributed tracing should be enabled

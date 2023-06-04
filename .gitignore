@@ -4,3 +4,4 @@ distVite
 dist
 .sentryclirc
 distEsbuild
+distWebpack
