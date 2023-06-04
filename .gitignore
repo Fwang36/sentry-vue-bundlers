@@ -3,3 +3,4 @@ distVite
 .env
 dist
 .sentryclirc
+distEsbuild
